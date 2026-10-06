@@ -1,6 +1,4 @@
 from pathlib import Path
-import sys
-filename = sys.argv[1]
 
 with open("data/sample.txt", "r") as file:
     #filename = file.name.split("/")[-1].split(".")[0]
