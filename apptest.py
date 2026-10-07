@@ -20,3 +20,4 @@ with open("names.txt", "r") as file:
         names.append(line.strip())
 for name in sorted(names):
     print(f"Hello, {name}")
+    
